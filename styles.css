@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(45, 42, 42, 0.686);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    border : border-box;
+
+}
+/* Outer layout */
+.calulator-layout{
+    height: 650px;
+    width: 400px;
+    border: 2px solid #0b1e2c;
+    border-radius: 15px;
+    background-color: #142F44;
+    box-shadow: 0px 0px 50px 10px #0b1e2c;
+}
+
+
+
+/* inner Screen decoration */
+
+.Screen-layout{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+.Screen{
+    height: 140px;
+    width: 380px;
+    background-color: #205b7a;
+    border: 2px solid #0b1e2c;
+    border-radius: 15px;
+    position :relative;
+    top :10px;
+    color: white;
+}
+
+.numbers{
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+    top: 40px;
+    right: 10px;
+}
+
+/* Buttons*/
+.All-buttons{
+    height: 122px;
+    width: 380px;
+    position: relative;
+    right: -10px;
+
+}
+
+.row1buttons{
+    height: 100px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius:50% ;
+    background-color: #1d3849;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
